@@ -9,9 +9,9 @@
 #include <ArduinoJson.h>
 
 // Pin Definitions
-#define PIR_PIN D5
-#define BUZZER_PIN D6
-#define LED_PIN D4
+#define PIR_PIN 14
+#define BUZZER_PIN 12
+#define LED_PIN 2
 
 // Configuration Structure
 struct Config {
@@ -227,7 +227,7 @@ void sendSensorData() {
   WiFiClient client;
   HTTPClient http;
 
-  http.begin(client, config.apiEndpoint);
+  http.begin(client, config.apiEndpoint );
   http.addHeader("Content-Type", "application/json");
 
   int httpCode = http.POST(payload);
