@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "D:/embbeded-project/motion-detector"
+		},
+		{
+			"name": "motion-detection",
+			"path": "."
+		},
+		{
+			"name": "Power-line-management-system",
+			"path": "D:/Power-line-management-system"
+		}
+	],
+	"settings": {}
+}
