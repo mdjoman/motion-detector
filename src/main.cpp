@@ -1,6 +1,6 @@
 /*
  * ESP8266 Motion Security System
- * Version: 8.0.0 - Futuristic Dashboard
+ * Version: 8.1.0.0 - Futuristic Configuration Portal
  */
 
 #include <ESP8266WiFi.h>
